@@ -6,6 +6,7 @@ class IndexController extends Controller {
         $this -> display();
     }
 
+    //about us page
     public function about_us(){
       return $this->display();
 
