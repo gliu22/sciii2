@@ -18,6 +18,7 @@ class IndexController extends Controller {
 
     }
 
+    //spensorship page
     public function SponsorShip(){
       return $this->display();
     }
