@@ -6,16 +6,19 @@ class IndexController extends Controller {
         $this -> display();
     }
 
+    //about us page
     public function about_us(){
       return $this->display();
 
     }
 
+    //service page
     public function service(){
       return $this->display();
 
     }
 
+    //spensorship page
     public function SponsorShip(){
       return $this->display();
     }
