@@ -12,6 +12,7 @@ class IndexController extends Controller {
 
     }
 
+    //service page
     public function service(){
       return $this->display();
 
