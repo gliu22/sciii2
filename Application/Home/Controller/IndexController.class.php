@@ -18,7 +18,7 @@ class IndexController extends Controller {
 
     }
 
-    //spensorship page 123
+    //spensorship page 12345
     public function SponsorShip(){
       return $this->display();
     }
